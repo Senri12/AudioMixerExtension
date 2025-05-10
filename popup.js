@@ -50,7 +50,7 @@ chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         const thresholdSlider = document.createElement('input');
         thresholdSlider.type = 'range';
         thresholdSlider.min = -100;
-        thresholdSlider.max = 0;
+        thresholdSlider.max = 100;
         thresholdSlider.step = 1;
         thresholdSlider.value = initialThreshold;
 
