@@ -1,0 +1,1 @@
+console.log("Audio Mixer extension loaded");
